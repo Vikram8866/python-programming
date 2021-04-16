@@ -1,18 +1,15 @@
-a=int(input("Enter the Number A:"))
-b=int(input("Enter the Number B:"))
-print("Addition=",a+b)
-print("Subraction=",a-b)
-print("Multiplication=",a*b)
-print("Exponent=",a**b)
-print("floor division",a//b)
-print("Division=",a/b)     
-      
-output:
-#Enter the Number A:20
-#Enter the Number B:10
-#Addition= 30
-#Subraction= 10
-#Multiplication= 200
-#Exponent= 10240000000000
-#floor division 2
-#Division= 2.0
+a=int(input("Enter the First number:"))
+b=int(input("Enter the Second number:"))
+temp=a
+a=b
+b=temp
+print("After swapping Numbers")
+print("The value of a is:",a)
+print("The value of b is :",b)
+
+#output:
+#Enter the First number:20
+#Enter the Second number:10
+#After swapping Numbers
+#The value of a is: 10
+#The value of b is : 20
